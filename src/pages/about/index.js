@@ -16,7 +16,7 @@ export const About = () => {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> About | {meta.title}</title>
+          <title> About me | {meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
@@ -27,7 +27,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">{dataabout.title}</h3>
+            <h3 className="color_sec py-4" style={{fontSize: '30px'}}>{dataabout.title}</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
@@ -37,7 +37,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4" style={{fontSize: '30px'}}>Work History</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -57,7 +57,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Skills</h3>
+            <h3 className="color_sec py-4" style={{fontSize: '30px'}}>Skills</h3>
           </Col>
           <Col lg="7">
             {skills.map((data, i) => {
@@ -81,7 +81,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4" style={{fontSize: '30px'}}>Services</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {

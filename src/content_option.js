@@ -1,149 +1,124 @@
-const logotext = "JOHN";
+const logotext = "JOSEPH E";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "",
+    description: "Hey there! I'm Joseph Ezema, a FullStack developer",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I am Joseph Ezema",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Love building cool stuff with React",
+        second: "You got a problem that needs fixing? I'M YOUR GUY",
+        third: "Multi-language coding skills? Yep, I play multiple positions.",
+        fourth: "Team player in the office, on the field, everywhere.",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Experienced Software Engineer proficient in multiple programming languages, with a track record of developing and maintaining scalable and secure web applications using various frameworks. Strong problem-solving skills and ability to troubleshoot software issues to ensure optimal performance. Excellent communication and interpersonal skills.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Get to know me",
+    aboutme: "I am Joseph Ezema, a dedicated and experienced Software Engineer with a BaSc in Computer Engineering from uOttawa. I have a deep proficiency in multiple programming languages and a proven track record in developing and maintaining scalable, secure web applications using various frameworks. My journey in the tech industry has been marked by strong problem-solving skills and the ability to troubleshoot software issues for optimal performance. Working at the Carbon Edge, I learned how to effectively work in a team, handle pressure, and consistently deliver above expectations. At Carbon Edge, I collaborated closely with the CTO, gaining insights into the business needs and implementing new features that enhanced the quality and speed of business practices. I am easy-going and enjoy being around people, always ready to uplift others and share in their success. My passion for technology is coupled with a readiness to embrace new challenges and collaborate with teammates, making me not just a software engineer but a team player, problem solver, and an inspiring colleague.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Application Developer",
+        where: "Carbon Edge",
+        date: "December, 2022 to Current",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Software Engineer",
+        where: "Mobel Cabinetry",
+        date: "April, 2022 to December, 2022",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "JavaScript",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
+        name: "PHP",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Python",
+        value: 82,
     },
     {
-        name: "Jquery",
+        name: "React",
         value: 85,
     },
+    {
+        name: "Node.js",
+        value: 73,
+    },
+    {
+        name: "SQL",
+        value: 76,
+    },
+    {
+        name: "Laravel",
+        value: 68,
+    },
+    {
+        name: "React-native",
+        value: 85,
+    },
+    {
+        name: "CSS",
+        value: 90,
+    },
+    {
+        name: "HTML5",
+        value: 90,
+    },
+    {
+        name: "RestFul APIs",
+        value: 78,
+    },
+
+
+
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Application Development",
+        description: "Specializing in creating dynamic and responsive web applications tailored to meet client needs. Experienced in developing robust web app extensions using React, ensuring seamless integration and enhanced user experiences.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Mobile Application Development",
+        description: "Proficient in designing and building intuitive mobile applications for both Android and iOS platforms. Developer of 'Meeting Watchdog', a React Native app designed to track meeting productivity and costs, showcasing my ability to translate client needs into effective mobile solutions.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Unit Testing",
+        description: "Proficient in unit testing, ensuring that every component of an application functions as intended. My approach emphasizes thoroughness and accuracy, aiming to deliver flawless and reliable software solutions.",
+    },
+    {
+        title: "Technical Writing",
+        description: "Adept at translating complex technical concepts into clear, concise, and understandable language. Whether it's documentation, manuals, or instructional guides, I focus on making information accessible and easy to comprehend for all audiences.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: require('./assets/images/icon_1024.png'),
+        description: "Meeting Watchdog",
+        link: "https://github.com/j-ezema/MeetingWatchdog/tree/Developer",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: require('./assets/images/expenses-icon-clipart-3.jpg'),
+        description: "Expense Tracker",
+        link: "https://github.com/JosephEzema/expense-tracker",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "j.ezema01@gmail.com",
+    YOUR_FONE: "(289) 224-5440",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "j_ezema01",
+    YOUR_TEMPLATE_ID: "template_jezema01",
+    YOUR_USER_ID: "YPjKKVIQVm_HVi51z",
 };
 
 const socialprofils = {
