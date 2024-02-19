@@ -102,12 +102,17 @@ const services = [{
 const dataportfolio = [{
         img: require('./assets/images/icon_1024.png'),
         description: "Meeting Watchdog",
-        link: "https://github.com/j-ezema/MeetingWatchdog/tree/Developer",
+        link: "#",
     },
     {
         img: require('./assets/images/expenses-icon-clipart-3.jpg'),
         description: "Expense Tracker",
         link: "https://github.com/JosephEzema/expense-tracker",
+    },
+    {
+        img: require('./assets/images/composts.jpg'),
+        description: "Waste4Meal",
+        link: "https://github.com/JosephEzema/waste",
     },
 ];
 
