@@ -107,12 +107,17 @@ const dataportfolio = [{
     {
         img: require('./assets/images/expenses-icon-clipart-3.jpg'),
         description: "Expense Tracker",
-        link: "https://github.com/JosephEzema/expense-tracker",
+        link: "https://github.com/j-ezema/expense-tracker",
     },
     {
         img: require('./assets/images/composts.jpg'),
         description: "Waste4Meal",
-        link: "https://github.com/JosephEzema/waste",
+        link: "https://github.com/j-ezema/waste",
+    },
+    {
+        img: require('./assets/images/Healthcare-office.jpg'),
+        description: "Mediqueue",
+        link: "https://github.com/j-ezema/Mediqueue",
     },
 ];
 
