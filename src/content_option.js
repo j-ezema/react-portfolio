@@ -42,27 +42,27 @@ const skills = [{
     },
     {
         name: "Python",
-        value: 82,
+        value: 95,
     },
     {
         name: "React",
-        value: 85,
+        value: 95,
     },
     {
         name: "Node.js",
-        value: 73,
+        value: 80,
     },
     {
         name: "SQL",
-        value: 76,
+        value: 85,
     },
     {
         name: "Laravel",
-        value: 68,
+        value: 70,
     },
     {
         name: "React-native",
-        value: 85,
+        value: 95,
     },
     {
         name: "CSS",
@@ -74,7 +74,7 @@ const skills = [{
     },
     {
         name: "RestFul APIs",
-        value: 78,
+        value: 85,
     },
 
 
@@ -118,6 +118,11 @@ const dataportfolio = [{
         img: require('./assets/images/Healthcare-office.jpg'),
         description: "Mediqueue",
         link: "https://github.com/j-ezema/Mediqueue",
+    },
+    {
+        img: require('./assets/images/money-exchange-currency.webp'),
+        description: "Fx Tracker",
+        link: "https://henon-foreign-exchange-tracker-8537b9197eeb.herokuapp.com/",
     },
 ];
 
