@@ -50,15 +50,15 @@ const skills = [{
     },
     {
         name: "Node.js",
-        value: 80,
+        value: 88,
     },
     {
         name: "SQL",
-        value: 85,
+        value: 95,
     },
     {
         name: "Laravel",
-        value: 70,
+        value: 78,
     },
     {
         name: "React-native",
@@ -70,11 +70,11 @@ const skills = [{
     },
     {
         name: "HTML5",
-        value: 90,
+        value: 95,
     },
     {
         name: "RestFul APIs",
-        value: 85,
+        value: 90,
     },
 
 
@@ -102,7 +102,7 @@ const services = [{
 const dataportfolio = [{
         img: require('./assets/images/icon_1024.png'),
         description: "Meeting Watchdog",
-        link: "#",
+        link: "https://github.com/j-ezema/TimeTracker",
     },
     {
         img: require('./assets/images/expenses-icon-clipart-3.jpg'),
